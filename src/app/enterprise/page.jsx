@@ -3,6 +3,8 @@
 import React from "react";
 import Navigation from "../components/navigation";
 
+export const dynamic = "force-dynamic"; 
+
 export default function Enterprise() {
   return (
     <div className="text-default bg-[#0F1015] h-screen bg-small-circle lg:bg-big-circle bg-no-repeat bg-cover bg-center">

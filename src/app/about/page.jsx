@@ -11,6 +11,8 @@ import Navigation from "../components/navigation.jsx";
 import Footer from "../components/footer.jsx";
 import Link from "next/link.js";
 
+export const dynamic = "force-dynamic"; 
+
 function Icon({ id, open }) {
   return (
     <div className="flex items-center">

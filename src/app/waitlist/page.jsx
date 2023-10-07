@@ -14,6 +14,8 @@ import {
 } from "../components/materialUi/materialUi.jsx";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic"; 
+
 export default function Waitlist() {
   const [afterSignup, setAfterSignup] = React.useState(false)
   return (

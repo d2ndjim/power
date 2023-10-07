@@ -11,6 +11,8 @@ import {
 } from "../components/materialUi/materialUi.jsx";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic"; 
+
 export default function HomePage() {
   const [open, setOpen] = React.useState(0);
 
