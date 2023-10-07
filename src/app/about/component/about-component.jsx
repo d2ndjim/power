@@ -6,9 +6,9 @@ import {
   Accordion,
   AccordionHeader,
   AccordionBody,
-} from "../components/materialUi/materialUi.jsx";
-import Navigation from "../components/navigation.jsx";
-import Footer from "../components/footer.jsx";
+} from "../../components/materialUi/materialUi.jsx"
+import Navigation from "../../components/navigation.jsx";
+import Footer from "../../components/footer.jsx";
 import Link from "next/link.js";
 
 export const dynamic = "force-dynamic"; 

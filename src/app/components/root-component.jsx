@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useEffect } from "react";
-import { ThemeProvider } from "./components/materialUi/materialUi.jsx";
+import { ThemeProvider } from "./materialUi/materialUi.jsx";
 import Loading from "./loading.jsx";
-import HomePage from "./home/page.jsx";
+import HomePage from "../home/page.jsx";
 
 export const dynamic = "force-static"; 
 
